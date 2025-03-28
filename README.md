@@ -1,7 +1,7 @@
-# 🚀 FastAPI Social Media Account Management API
+# 🚀 FastAPI Learning Tutorial
 
 ## 📌 Overview
-FastAPI-based API for managing social media accounts, providing authentication, OAuth integration, and secure token storage.
+FastAPI-based API for creating and managing the blog site.
 
 ## ⚡ Features
 - High-performance API with async support
@@ -35,8 +35,6 @@ uvicorn main:app --reload
  
 
 ## 🛡 Security
-- Uses OAuth for social media authentication
-- Stores tokens securely
 - Implements JWT authentication
 
 ## 🤝 Contributing
