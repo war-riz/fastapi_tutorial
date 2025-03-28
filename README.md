@@ -46,5 +46,5 @@ Pull requests are welcome! Please open an issue first to discuss changes.
 This project is licensed under the MIT License. 
 
 ## ⚡ Author
-Created by war-riz(https://github.com/war-riz/fastapi_tutorial).
+Created by war-riz (https://github.com/war-riz/fastapi_tutorial).
 
