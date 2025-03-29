@@ -17,12 +17,15 @@ class Blog(BaseModel):
     published: Optional[bool] = True
     tags: Optional[list] = []
 
+
+
 @app.post("/blog")
 def create_blog(blog: Blog):
     return {'data': {
         "title": blog.title,
         "content": blog.content,
     }}
+
 
 
 @app.get("/blog/{id}/comments")
@@ -40,6 +43,7 @@ def comments(id: int, limit: int = 10, published: bool = True, sort: Optional[st
             "post_id": id,
             "comments": []
         }}
+
 
 
 @app.get("/blog/{id}")
